@@ -14,5 +14,12 @@ npm install synysterdaystack
 ```
 js
 const synysterdaystack = require("synysterdaystack" ) ;
-const response = synysterdaystack. formatDate( new Date(), "DD/MM/YYYY" ) ; console, log ( response, " response" ) ;
+const response = synysterdaystack. formatDate( new Date(), "DD/MM/YYYY" ) ;
+console, log ( response, " response" ) ;
+
+const isValidDate = synysterdaystack.isValidDate( new Date()) ;
+console, log ( isValidDate, "isValidDate" ) ;
+
+const isWeekend = synysterdaystack.isWeekend( new Date()) ;
+console, log ( isWeekend, "isWeekend" ) ;
 ```
